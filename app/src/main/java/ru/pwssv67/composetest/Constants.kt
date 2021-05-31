@@ -5,3 +5,9 @@ enum class RecordType(val typeString:String) {
     CALORIES("CALORIES"),
     TRAINING_MINUTES("TRAINING_MINUTES")
 }
+
+val defaultLimits = mapOf(
+    RecordType.WATER_GLASSES to 8,
+    RecordType.CALORIES to 2400,
+    RecordType.TRAINING_MINUTES to 30
+)
